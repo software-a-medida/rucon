@@ -109,7 +109,10 @@ body * {
 #desktop_menu.down {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
-    background-color: #000 !important;
+}
+
+#desktop_menu.down a > strong {
+    font-weight: 400 !important;
 }
 
 @media (max-width: 768px) {

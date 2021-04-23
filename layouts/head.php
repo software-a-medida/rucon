@@ -17,20 +17,25 @@
 		{$dependencies.css}
 	</head>
 	<body>
-		<header id="desktop_menu" class="pos-fixed p-t-10 p-t-md-20 p-b-10 p-b-md-20 p-l-10 p-l-md-0 p-r-10 p-r-md-0" style="width:100%;transition:400ms;z-index:98;">
+		<header id="desktop_menu" class="pos-fixed p-t-10 p-t-md-20 p-b-10 p-b-md-20 p-l-10 p-l-md-0 p-r-10 p-r-md-0" style="width:100%;background-color:#fff;transition:400ms;z-index:98;">
 			<div class="container">
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
 						<figure>
-							<img src="{$path.images}logotype.png" alt="Logotype" class="img-fluid">
+							<img src="{$path.images}logotype.svg" alt="Logotype" class="img-fluid">
 						</figure>
 					</div>
 					<div data-desktop class="col-10">
 						<nav>
 							<ul class="d-flex align-items-center justify-content-end list-unstyled">
-								<li><a href="/" class="text-uppercase text-light">{$lang.home}</a></li>
-								<li class="m-l-20"><a href="?lang=es"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:20px;"></a></li>
-								<li class="m-l-20"><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:20px;"></a></li>
+								<li><a href="/" class="text-uppercase text-dark">{$lang.home}</a></li>
+								<li class="m-l-15"><a href="/acerca-de-nosotros" class="text-uppercase text-dark">{$lang.about_us}</a></li>
+								<li class="m-l-15"><a href="/servicios" class="text-uppercase text-dark">{$lang.services}</a></li>
+								<li class="m-l-15"><a href="/llave-en-mano" class="text-uppercase text-dark">{$lang.key_on_hand}</a></li>
+								<li class="m-l-15"><a href="/proyectos" class="text-uppercase text-dark">{$lang.projects}</a></li>
+								<li class="m-l-15"><a href="/contactanos" class="text-uppercase text-dark">{$lang.contact_us}</a></li>
+								<li class="m-l-15"><a href="?lang=es"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:15px;"></a></li>
+								<li class="m-l-15"><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:15px;"></a></li>
 							</ul>
 						</nav>
 					</div>
@@ -40,12 +45,17 @@
 				</div>
 			</div>
 		</header>
-		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-20" style="width:300px;height:100vh;right:-300px;background-color:#000;transition:400ms;z-index:99;">
+		<header id="mobile_menu" data-mobile-flex class="pos-fixed d-flex align-items-center justify-content-center p-20" style="width:300px;height:100vh;right:-300px;background-color:#fff;transition:400ms;z-index:99;">
 			<a data-action="close_mobile_menu" class="btn btn-light pos-absolute" style="top:20px;right:20px;"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
-					<li class="m-b-20"><a href="/" class="text-uppercase text-light">{$lang.home}</a></li>
-					<li><a href="?lang=es" class="m-r-20"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:20px;"></a><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:20px;"></a></li>
+					<li class="m-b-10"><a href="/" class="text-uppercase text-dark">{$lang.home}</a></li>
+					<li class="m-b-10"><a href="/acerca-de-nosotros" class="text-uppercase text-dark">{$lang.about_us}</a></li>
+					<li class="m-b-10"><a href="/servicios" class="text-uppercase text-dark">{$lang.services}</a></li>
+					<li class="m-b-10"><a href="/llave-en-mano" class="text-uppercase text-dark">{$lang.key_on_hand}</a></li>
+					<li class="m-b-10"><a href="/proyectos" class="text-uppercase text-dark">{$lang.projects}</a></li>
+					<li class="m-b-10"><a href="/contactanos" class="text-uppercase text-dark">{$lang.contact_us}</a></li>
+					<li><a href="?lang=es" class="m-r-10"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:20px;"></a><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:20px;"></a></li>
 				</ul>
 			</nav>
 		</header>

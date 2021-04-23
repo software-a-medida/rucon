@@ -17,7 +17,7 @@ class Configuration
 	 *
      * @var string $domain
      */
-	public static $domain = 'mycompany.com';
+	public static $domain = 'gruporucon.mx';
 
 	/**
      * Nombre del sitio web.
@@ -26,7 +26,7 @@ class Configuration
 	 *
      * @var string $web_page
      */
-	public static $web_page = 'My Company';
+	public static $web_page = 'Grupo Rucon';
 
 	/**
      * Idioma por default
@@ -276,7 +276,7 @@ class Configuration
 	 *
      * @var integer $smtp_emailer
      */
-	public static $smtp_emailer = 'noreply@mycompany.com';
+	public static $smtp_emailer = 'noreply@gruporucon.mx';
 
 	/**
      * Variables generales.
@@ -287,8 +287,8 @@ class Configuration
      */
 	public static $vars = [
 		'contact' => [
-			'email' => 'contacto@mycompany.com',
-			'phone' => '+52 (998) 123 45 67'
+			'email' => 'contacto@gruporucon.mx',
+			'phone' => '+52 (999) 923 37 68'
 		],
 		'rrss' => [
 			'facebook' => [
@@ -299,6 +299,7 @@ class Configuration
 				'url' => 'https://instagram.com/',
 				'user' => '@myinstagram'
 			]
-		]
+		],
+		'address' => 'Calle 34 entre 45 y 23 Col. Campestre, Mérida, Yuc. CP. 97000'
 	];
 }

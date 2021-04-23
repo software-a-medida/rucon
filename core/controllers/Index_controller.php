@@ -67,6 +67,42 @@ class Index_controller extends Controller
 		}
 	}
 
+	public function about()
+	{
+		define('_title', Configuration::$web_page . ' | {$lang.about}');
+
+		$template = $this->view->render($this, 'about');
+
+		echo $template;
+	}
+
+	public function services()
+	{
+		define('_title', Configuration::$web_page . ' | {$lang.services}');
+
+		$template = $this->view->render($this, 'services');
+
+		echo $template;
+	}
+
+	public function keyonhand()
+	{
+		define('_title', Configuration::$web_page . ' | {$lang.key_on_hand}');
+
+		$template = $this->view->render($this, 'keyonhand');
+
+		echo $template;
+	}
+
+	public function contact()
+	{
+		define('_title', Configuration::$web_page . ' | {$lang.contact}');
+
+		$template = $this->view->render($this, 'contact');
+
+		echo $template;
+	}
+
 	public function privacynotice()
 	{
 		define('_title', Configuration::$web_page . ' | {$lang.privacy_notice}');

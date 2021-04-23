@@ -67,11 +67,11 @@ class Index_controller extends Controller
 		}
 	}
 
-	public function about()
+	public function aboutus()
 	{
-		define('_title', Configuration::$web_page . ' | {$lang.about}');
+		define('_title', Configuration::$web_page . ' | {$lang.about_us}');
 
-		$template = $this->view->render($this, 'about');
+		$template = $this->view->render($this, 'aboutus');
 
 		echo $template;
 	}
@@ -94,11 +94,11 @@ class Index_controller extends Controller
 		echo $template;
 	}
 
-	public function contact()
+	public function contactus()
 	{
-		define('_title', Configuration::$web_page . ' | {$lang.contact}');
+		define('_title', Configuration::$web_page . ' | {$lang.contact_us}');
 
-		$template = $this->view->render($this, 'contact');
+		$template = $this->view->render($this, 'contactus');
 
 		echo $template;
 	}

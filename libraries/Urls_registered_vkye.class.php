@@ -13,9 +13,9 @@ class Urls_registered_vkye
                 'controller' => 'Index',
                 'method' => 'index'
             ],
-            '/nosotros' => [
+            '/acerca-de-nosotros' => [
                 'controller' => 'Index',
-                'method' => 'about'
+                'method' => 'aboutus'
             ],
             '/servicios' => [
                 'controller' => 'Index',
@@ -29,9 +29,9 @@ class Urls_registered_vkye
                 'controller' => 'Index',
                 'method' => 'projects'
             ],
-            '/contacto' => [
+            '/contactanos' => [
                 'controller' => 'Index',
-                'method' => 'contact'
+                'method' => 'contactus'
             ],
             '/aviso-de-privacidad' => [
                 'controller' => 'Index',

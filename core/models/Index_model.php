@@ -31,7 +31,7 @@ class Index_model extends Model
 
 	public function read_project($token)
 	{
-		$query = Functions::decode_json_to_array($this->database->select('business', '*', ['token' => $token]));
+		$query = Functions::decode_json_to_array($this->database->select('projects', '*', ['token' => $token]));
 
 		return !empty($query) ? $query[0] : null;
 	}

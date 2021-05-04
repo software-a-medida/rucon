@@ -61,6 +61,10 @@ class Index_controller extends Controller
 		{
 			define('_title', Configuration::$web_page . ' | {$lang.home}');
 
+			global $global;
+
+			$global['projects'] = $this->model->read_projects(true);
+
 			$template = $this->view->render($this, 'index');
 
 			echo $template;
@@ -90,6 +94,24 @@ class Index_controller extends Controller
 		define('_title', Configuration::$web_page . ' | {$lang.key_on_hand}');
 
 		$template = $this->view->render($this, 'keyonhand');
+
+		echo $template;
+	}
+
+	public function projects($params)
+	{
+		define('_title', Configuration::$web_page . ' | {$lang.projects}');
+
+		global $global;
+
+		$global['render'] = !empty($params) ? 'details' : 'list';
+
+		if ($global['render'] == 'list')
+			$global['projects'] = $this->model->read_projects();
+		else if ($global['render'] == 'details')
+			$global['project'] = $this->model->read_project($params[0]);
+
+		$template = $this->view->render($this, 'projects');
 
 		echo $template;
 	}

@@ -102,24 +102,14 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     </section>
     <section>
         <div class="row no-gutters">
-            <div class="col-md-4 pos-relative">
-                <figure style="height:400px;">
-                    <img src="{$path.uploads}project_1.png" alt="" class="img-cover">
-                </figure>
-                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:40px;">Proyecto 1</a>
-            </div>
-            <div class="col-md-4 pos-relative">
-                <figure style="height:400px;">
-                    <img src="{$path.uploads}project_2.png" alt="" class="img-cover">
-                </figure>
-                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:40px;">Proyecto 2</a>
-            </div>
-            <div class="col-md-4 pos-relative">
-                <figure style="height:400px;">
-                    <img src="{$path.uploads}project_3.png" alt="" class="img-cover">
-                </figure>
-                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:40px;">Proyecto 3</a>
-            </div>
+            <?php foreach ($global['projects'] as $value) : ?>
+                <div class="col-md-4 pos-relative">
+                    <figure style="height:400px;">
+                        <img src="{$path.uploads}<?php echo $value['cover']; ?>" alt="Cover" class="img-cover">
+                    </figure>
+                    <a href="/proyectos/<?php echo $value['token']; ?>" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:34px;"><?php echo $value['name']; ?></a>
+                </div>
+            <?php endforeach; ?>
         </div>
     </section>
     <section class="p-20 p-md-40" style="background-color:#eee;">

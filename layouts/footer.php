@@ -3,7 +3,7 @@
         <footer class="p-20 p-md-40" style="background-color:#19213c;">
             <div class="container">
                 <div class="row m-b-20 m-b-md-40">
-                    <div class="col-md-4 m-b-20 m-b-md-0">
+                    <div class="col-md-3 m-b-20 m-b-md-0">
                         <h6 class="m-b-5 text-uppercase text-light">{$lang.contact_us}</h6>
                         <nav class="m-b-20">
                             <ul class="list-unstyled">
@@ -19,7 +19,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-4 m-b-20 m-b-md-0">
+                    <div class="col-md-3 m-b-20 m-b-md-0">
                         <h6 class="m-b-5 text-uppercase text-light"><?php echo Configuration::$web_page; ?></h6>
                         <nav>
                             <ul class="list-unstyled">
@@ -33,7 +33,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center justify-content-md-end">
+                    <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
                         <figure class="p-10" style="height:60px;border-radius:5px;background-color:#fff;">
                             <img src="{$path.images}logotype.svg" alt="Logotype" class="img-fluid" style="height:100%;">
                         </figure>

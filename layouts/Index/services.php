@@ -5,20 +5,20 @@
         <figure style="height:100%;">
             <img src="{$path.images}sv_1.png" alt="Background" class="img-cover">
         </figure>
-        <div class="pos-absolute d-flex align-items-center p-20 p-md-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);">
+        <div class="pos-absolute d-flex align-items-end align-items-md-center p-20 p-md-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);">
             <div class="container">
                 <h1 class="m-b-20 text-center text-light">{$lang.sv_tt_1}</h1>
                 <p class="m-b-20 text-center text-light">{$lang.sv_tt_2}</p>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center m-b-20 m-b-md-0">
                     <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#263689;">{$lang.contact_us}</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="p-20 p-md-40 m-b-20">
+    <section class="p-20 p-md-40 m-b-0 m-b-md-20">
         <div class="container">
             <div class="pos-relative">
-                <div class="pos-absolute" style="width:100%;top:-120px;">
+                <div class="pos-absolute pos-mobile-auto" style="width:100%;top:-120px;">
                     <div class="row">
                         <div class="col-md-3 m-b-20 m-b-md-0">
                             <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
@@ -34,7 +34,7 @@
                                 <p class="text-center">{$lang.sv_tt_6}</p>
                             </div>
                         </div>
-                        <div class="col-md-3 m-b-md-0">
+                        <div class="col-md-3 m-b-20 m-b-md-0">
                             <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
                                 <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_7}</h4>
@@ -53,7 +53,7 @@
             </div>
         </div>
     </section>
-    <section class="p-20 p-md-40 bx-shadow">
+    <section class="p-20 p-md-40">
         <div class="container">
             <h2 class="m-b-20 text-center">{$lang.sv_tt_11}</h2>
             <div class="row">

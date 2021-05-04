@@ -124,6 +124,16 @@ body * {
 
 /*  */
 
+@media (max-width: 768px) {
+
+    .pos-mobile-auto {
+        position: relative !important;
+        top: auto !important;
+    }
+}
+
+/*  */
+
 .circle::before {
     content: '';
     width: 35px;
@@ -179,4 +189,23 @@ body * {
 
 .stick.left::after {
     left: -156px;
+}
+
+@media (max-width: 768px) {
+
+    .stick::before {
+        width: 30px;
+    }
+
+    .stick.right::after {
+        left: 62px;
+    }
+
+    .stick.left::before {
+        left: -66px;
+    }
+
+    .stick.left::after {
+        left: -86px;
+    }
 }

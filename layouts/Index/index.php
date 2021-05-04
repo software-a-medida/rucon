@@ -103,12 +103,12 @@
     <section class="p-20 p-md-40" style="background-color:#f2f2f2;">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-20 m-b-md-0 text-center text-md-left">
                     <h2 class="m-b-20">{$lang.hm_tt_19}</h2>
                     <p class="m-b-20">{$lang.hm_tt_20}</p>
                     <a href="/contactanos" class="btn btn-b-none text-light" style="border-radius:40px;background-color:#263689;">{$lang.start_now}</a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="background-color:#fff;">
                         <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20">{$lang.hm_tt_21}</h4>

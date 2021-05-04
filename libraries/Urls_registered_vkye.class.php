@@ -15,7 +15,7 @@ class Urls_registered_vkye
             ],
             '/acerca-de-nosotros' => [
                 'controller' => 'Index',
-                'method' => 'aboutus'
+                'method' => 'about_us'
             ],
             '/servicios' => [
                 'controller' => 'Index',
@@ -23,7 +23,7 @@ class Urls_registered_vkye
             ],
             '/llave-en-mano' => [
                 'controller' => 'Index',
-                'method' => 'keyonhand'
+                'method' => 'key_on_hand'
             ],
             '/proyectos' => [
                 'controller' => 'Index',
@@ -35,11 +35,11 @@ class Urls_registered_vkye
             ],
             '/contactanos' => [
                 'controller' => 'Index',
-                'method' => 'contactus'
+                'method' => 'contact_us'
             ],
             '/aviso-de-privacidad' => [
                 'controller' => 'Index',
-                'method' => 'privacynotice'
+                'method' => 'privacy_notice'
             ]
         ];
     }

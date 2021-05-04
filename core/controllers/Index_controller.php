@@ -11,71 +11,22 @@ class Index_controller extends Controller
 
 	public function index()
 	{
-		if (Format::exist_ajax_request() == true)
-		{
-			if ($_POST['action'] == 'contact')
-			{
-				$errors = [];
+		define('_title', Configuration::$web_page . ' | {$lang.home}');
 
-				if (empty($_POST['name']))
-					array_push($errors, ['{$lang.name}: {$lang.dont_leave_this_field_empty}']);
+		global $global;
 
-				if (empty($_POST['email']))
-					array_push($errors, ['{$lang.email}: {$lang.dont_leave_this_field_empty}']);
+		$global['projects'] = $this->model->read_projects(true);
 
-				if (empty($_POST['phone']))
-					array_push($errors, ['{$lang.phone}: {$lang.dont_leave_this_field_empty}']);
+		$template = $this->view->render($this, 'index');
 
-				if (empty($_POST['message']))
-					array_push($errors, ['{$lang.message}: {$lang.dont_leave_this_field_empty}']);
-
-				if (empty($errors))
-				{
-					$mail = new Mailer(true);
-
-					try
-					{
-						$mail->setFrom(Configuration::$smtp_emailer, Configuration::$web_page);
-						$mail->addAddress(Configuration::$vars['contact']['email'], Configuration::$web_page);
-						$mail->Subject = 'Nuevo contacto';
-						$mail->Body = 'Nombre: ' . $_POST['name'] . '<br>Correo electrónico: ' . $_POST['email'] . '<br>Teléfono: ' . $_POST['phone'] . '<br>Mensaje: ' . $_POST['message'];
-						$mail->send();
-					}
-					catch (Exception $e) {}
-
-					echo json_encode([
-						'status' => 'success',
-						'message' => '{$lang.thanks_for_contact_us}'
-					]);
-				}
-				else
-				{
-					echo json_encode([
-						'status' => 'error',
-						'errors' => $errors
-					]);
-				}
-			}
-		}
-		else
-		{
-			define('_title', Configuration::$web_page . ' | {$lang.home}');
-
-			global $global;
-
-			$global['projects'] = $this->model->read_projects(true);
-
-			$template = $this->view->render($this, 'index');
-
-			echo $template;
-		}
+		echo $template;
 	}
 
-	public function aboutus()
+	public function about_us()
 	{
 		define('_title', Configuration::$web_page . ' | {$lang.about_us}');
 
-		$template = $this->view->render($this, 'aboutus');
+		$template = $this->view->render($this, 'about_us');
 
 		echo $template;
 	}
@@ -89,11 +40,11 @@ class Index_controller extends Controller
 		echo $template;
 	}
 
-	public function keyonhand()
+	public function key_on_hand()
 	{
 		define('_title', Configuration::$web_page . ' | {$lang.key_on_hand}');
 
-		$template = $this->view->render($this, 'keyonhand');
+		$template = $this->view->render($this, 'key_on_hand');
 
 		echo $template;
 	}
@@ -116,20 +67,66 @@ class Index_controller extends Controller
 		echo $template;
 	}
 
-	public function contactus()
+	public function contact_us()
 	{
-		define('_title', Configuration::$web_page . ' | {$lang.contact_us}');
+		if (Format::exist_ajax_request() == true)
+		{
+			$errors = [];
 
-		$template = $this->view->render($this, 'contactus');
+			if (empty($_POST['name']))
+				array_push($errors, ['{$lang.name}: {$lang.dont_leave_this_field_empty}']);
 
-		echo $template;
+			if (empty($_POST['email']))
+				array_push($errors, ['{$lang.email}: {$lang.dont_leave_this_field_empty}']);
+
+			if (empty($_POST['phone']))
+				array_push($errors, ['{$lang.phone}: {$lang.dont_leave_this_field_empty}']);
+
+			if (empty($_POST['message']))
+				array_push($errors, ['{$lang.message}: {$lang.dont_leave_this_field_empty}']);
+
+			if (empty($errors))
+			{
+				$mail = new Mailer(true);
+
+				try
+				{
+					$mail->setFrom(Configuration::$smtp_emailer, Configuration::$web_page);
+					$mail->addAddress(Configuration::$vars['contact']['email'], Configuration::$web_page);
+					$mail->Subject = 'Nuevo contacto';
+					$mail->Body = 'Nombre: ' . $_POST['name'] . '<br>Correo electrónico: ' . $_POST['email'] . '<br>Teléfono: ' . $_POST['phone'] . '<br>Mensaje: ' . $_POST['message'];
+					$mail->send();
+				}
+				catch (Exception $e) {}
+
+				echo json_encode([
+					'status' => 'success',
+					'message' => '{$lang.thanks_for_contact_us}'
+				]);
+			}
+			else
+			{
+				echo json_encode([
+					'status' => 'error',
+					'errors' => $errors
+				]);
+			}
+		}
+		else
+		{
+			define('_title', Configuration::$web_page . ' | {$lang.contact_us}');
+
+			$template = $this->view->render($this, 'contact_us');
+
+			echo $template;
+		}
 	}
 
-	public function privacynotice()
+	public function privacy_notice()
 	{
 		define('_title', Configuration::$web_page . ' | {$lang.privacy_notice}');
 
-		$template = $this->view->render($this, 'privacynotice');
+		$template = $this->view->render($this, 'privacy_notice');
 
 		echo $template;
 	}

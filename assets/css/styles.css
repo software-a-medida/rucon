@@ -121,3 +121,62 @@ body * {
         right: 0px !important;
     }
 }
+
+/*  */
+
+.circle::before {
+    content: '';
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 17.5px;
+    right: -17.5px;
+    border-radius: 50%;
+    background-color: #19213c;
+}
+
+.circle::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    right: -35px;
+    border-radius: 50%;
+    border: 2px solid #19213c;
+}
+
+.stick::before {
+    content: '';
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    top: 35px;
+    background-color: #19213c;
+}
+
+.stick::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 25px;
+    border-radius: 50%;
+    background-color: #19213c;
+}
+
+.stick.right::before {
+    left: 32px;
+}
+
+.stick.right::after {
+    left: 132px;
+}
+
+.stick.left::before {
+    left: -136px;
+}
+
+.stick.left::after {
+    left: -156px;
+}

@@ -82,7 +82,7 @@
             </div>
         </div>
     </section>
-    <section class="p-20 p-md-40" style="background-color:#eee;">
+    <section class="p-20 p-md-40" style="background-color:#f2f2f2;">
         <div class="container">
             <h2 class="m-b-20 text-center">{$lang.hm_tt_17}</h2>
             <p class="m-b-20 text-center">{$lang.hm_tt_18}</p>
@@ -100,7 +100,7 @@
             <?php endforeach; ?>
         </div>
     </section>
-    <section class="p-20 p-md-40" style="background-color:#eee;">
+    <section class="p-20 p-md-40" style="background-color:#f2f2f2;">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">

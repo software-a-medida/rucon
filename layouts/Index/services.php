@@ -15,35 +15,39 @@
             </div>
         </div>
     </section>
-    <section class="pos-relative p-20 p-md-40 m-b-40">
-        <div class="container pos-absolute" style="top:-80px;z-index:99;">
-            <div class="row">
-                <div class="col-md-3 m-b-20 m-b-md-0">
-                    <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-5">{$lang.sv_tt_3}</h4>
-                        <p class="text-center">{$lang.sv_tt_4}</p>
-                    </div>
-                </div>
-                <div class="col-md-3 m-b-20 m-b-md-0">
-                    <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-5">{$lang.sv_tt_5}</h4>
-                        <p class="text-center">{$lang.sv_tt_6}</p>
-                    </div>
-                </div>
-                <div class="col-md-3 m-b-md-0">
-                    <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-5">{$lang.sv_tt_7}</h4>
-                        <p class="text-center">{$lang.sv_tt_8}</p>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-5">{$lang.sv_tt_9}</h4>
-                        <p class="text-center">{$lang.sv_tt_10}</p>
+    <section class="p-20 p-md-40 m-b-20">
+        <div class="container">
+            <div class="pos-relative">
+                <div class="pos-absolute" style="width:100%;top:-120px;">
+                    <div class="row">
+                        <div class="col-md-3 m-b-20 m-b-md-0">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <h4 class="m-b-5">{$lang.sv_tt_3}</h4>
+                                <p class="text-center">{$lang.sv_tt_4}</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-b-20 m-b-md-0">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <h4 class="m-b-5">{$lang.sv_tt_5}</h4>
+                                <p class="text-center">{$lang.sv_tt_6}</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 m-b-md-0">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <h4 class="m-b-5">{$lang.sv_tt_7}</h4>
+                                <p class="text-center">{$lang.sv_tt_8}</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <h4 class="m-b-5">{$lang.sv_tt_9}</h4>
+                                <p class="text-center">{$lang.sv_tt_10}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

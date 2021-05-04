@@ -67,27 +67,27 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     </section>
     <section class="p-20 p-md-40">
         <div class="container">
-            <h2 class="m-b-20 text-center"><strong>{$lang.hm_tt_9}</strong></h2>
+            <h2 class="m-b-20 text-center">{$lang.hm_tt_9}</h2>
             <p class="m-b-20 text-center">{$lang.hm_tt_10}</p>
             <div class="row">
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow">
                         <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-20"><strong>{$lang.hm_tt_11}</strong></h4>
+                        <h4 class="m-b-20">{$lang.hm_tt_11}</h4>
                         <p class="text-center">{$lang.hm_tt_12}</p>
                     </div>
                 </div>
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow">
                         <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-20"><strong>{$lang.hm_tt_13}</strong></h4>
+                        <h4 class="m-b-20">{$lang.hm_tt_13}</h4>
                         <p class="text-center">{$lang.hm_tt_14}</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow">
                         <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-20"><strong>{$lang.hm_tt_15}</strong></h4>
+                        <h4 class="m-b-20">{$lang.hm_tt_15}</h4>
                         <p class="text-center">{$lang.hm_tt_16}</p>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
     </section>
     <section class="p-20 p-md-40" style="background-color:#eee;">
         <div class="container">
-            <h2 class="m-b-20 text-center"><strong>{$lang.hm_tt_17}</strong></h2>
+            <h2 class="m-b-20 text-center">{$lang.hm_tt_17}</h2>
             <p class="m-b-20 text-center">{$lang.hm_tt_18}</p>
         </div>
     </section>
@@ -106,19 +106,19 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                 <figure style="height:400px;">
                     <img src="{$path.uploads}project_1.png" alt="" class="img-cover">
                 </figure>
-                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:30px;">Proyecto 1</a>
+                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:40px;">Proyecto 1</a>
             </div>
             <div class="col-md-4 pos-relative">
                 <figure style="height:400px;">
                     <img src="{$path.uploads}project_2.png" alt="" class="img-cover">
                 </figure>
-                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:30px;">Proyecto 2</a>
+                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:40px;">Proyecto 2</a>
             </div>
             <div class="col-md-4 pos-relative">
                 <figure style="height:400px;">
                     <img src="{$path.uploads}project_3.png" alt="" class="img-cover">
                 </figure>
-                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:30px;">Proyecto 3</a>
+                <a href="" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:40px;">Proyecto 3</a>
             </div>
         </div>
     </section>
@@ -126,21 +126,21 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="m-b-20"><strong>{$lang.hm_tt_19}</strong></h2>
+                    <h2 class="m-b-20">{$lang.hm_tt_19}</h2>
                     <p class="m-b-20">{$lang.hm_tt_20}</p>
                     <a href="/contactanos" class="btn btn-b-none text-light" style="border-radius:40px;background-color:#263689;">{$lang.start_now}</a>
                 </div>
                 <div class="col-md-4">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="background-color:#fff;">
                         <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-20"><strong>{$lang.hm_tt_21}</strong></h4>
+                        <h4 class="m-b-20">{$lang.hm_tt_21}</h4>
                         <p class="text-center">{$lang.hm_tt_22}</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="background-color:#fff;">
                         <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
-                        <h4 class="m-b-20"><strong>{$lang.hm_tt_23}</strong></h4>
+                        <h4 class="m-b-20">{$lang.hm_tt_23}</h4>
                         <p class="text-center">{$lang.hm_tt_24}</p>
                     </div>
                 </div>

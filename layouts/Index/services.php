@@ -8,7 +8,6 @@
         <div class="pos-absolute d-flex align-items-end align-items-md-center p-20 p-md-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);">
             <div class="container">
                 <h1 class="m-b-20 text-center text-light">{$lang.sv_tt_1}</h1>
-                <p class="m-b-20 text-center text-light">{$lang.sv_tt_2}</p>
                 <div class="d-flex justify-content-center m-b-20 m-b-md-0">
                     <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#263689;">{$lang.contact_us}</a>
                 </div>
@@ -20,29 +19,29 @@
             <div class="pos-relative">
                 <div class="pos-absolute pos-mobile-auto" style="width:100%;top:-120px;">
                     <div class="row">
-                        <div class="col-md-3 m-b-20 m-b-md-0">
-                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                        <div id="service" class="col-md-3 m-b-20 m-b-md-0">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
                                 <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_3}</h4>
                                 <p class="text-center">{$lang.sv_tt_4}</p>
                             </div>
                         </div>
-                        <div class="col-md-3 m-b-20 m-b-md-0">
-                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                        <div id="service" class="col-md-3 m-b-20 m-b-md-0">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
                                 <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_5}</h4>
                                 <p class="text-center">{$lang.sv_tt_6}</p>
                             </div>
                         </div>
-                        <div class="col-md-3 m-b-20 m-b-md-0">
-                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                        <div id="service" class="col-md-3 m-b-20 m-b-md-0">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
                                 <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_7}</h4>
                                 <p class="text-center">{$lang.sv_tt_8}</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;">
+                        <div id="service" class="col-md-3">
+                            <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
                                 <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_9}</h4>
                                 <p class="text-center">{$lang.sv_tt_10}</p>
@@ -59,23 +58,20 @@
             <div class="row">
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column">
-                        <h3 class="m-b-20" style="font-size:60px;color:#19213c;">20+</h3>
-                        <h4 class="m-b-20">{$lang.sv_tt_12}</h4>
-                        <p class="text-center">{$lang.sv_tt_13}</p>
+                        <h3 class="m-b-20" style="font-size:60px;color:#19213c;">+8</h3>
+                        <h4 class="text-center">{$lang.sv_tt_12}</h4>
                     </div>
                 </div>
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column">
-                        <h3 class="m-b-20" style="font-size:60px;color:#19213c;">120</h3>
-                        <h4 class="m-b-20">{$lang.sv_tt_14}</h4>
-                        <p class="text-center">{$lang.sv_tt_15}</p>
+                        <h3 class="m-b-20" style="font-size:60px;color:#19213c;">+10,000</h3>
+                        <h4 class="text-center">{$lang.sv_tt_14}</h4>
                     </div>
                 </div>
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column">
-                        <h3 class="m-b-20" style="font-size:60px;color:#19213c;">60+</h3>
-                        <h4 class="m-b-20">{$lang.sv_tt_16}</h4>
-                        <p class="text-center">{$lang.sv_tt_17}</p>
+                        <h3 class="m-b-20" style="font-size:60px;color:#19213c;">+25</h3>
+                        <h4 class="text-center">{$lang.sv_tt_16}</h4>
                     </div>
                 </div>
             </div>

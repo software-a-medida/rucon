@@ -17,7 +17,7 @@ class Configuration
 	 *
      * @var string $domain
      */
-	public static $domain = 'gruporucon.mx';
+	public static $domain = 'gruporucon.com';
 
 	/**
      * Nombre del sitio web.
@@ -276,7 +276,7 @@ class Configuration
 	 *
      * @var integer $smtp_emailer
      */
-	public static $smtp_emailer = 'noreply@gruporucon.mx';
+	public static $smtp_emailer = 'noreply@gruporucon.com';
 
 	/**
      * Variables generales.
@@ -287,8 +287,8 @@ class Configuration
      */
 	public static $vars = [
 		'contact' => [
-			'email' => 'contacto@gruporucon.mx',
-			'phone' => '+52 (999) 923 37 68'
+			'email' => 'contacto@gruporucon.com',
+			'phone' => '+52 (999) 931 76 77'
 		],
 		'rrss' => [
 			'facebook' => [
@@ -300,6 +300,6 @@ class Configuration
 				'user' => '@myinstagram'
 			]
 		],
-		'address' => 'Calle 34 entre 45 y 23 Col. Campestre, Mérida, Yuc. CP. 97000'
+		'address' => 'Calle 12 271, San Antonio Cinta, 97139 Mérida, Yuc.'
 	];
 }

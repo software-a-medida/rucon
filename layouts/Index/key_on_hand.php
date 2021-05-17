@@ -116,7 +116,6 @@
         <div class="pos-absolute d-flex align-items-center p-20 p-md-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);">
             <div class="container">
                 <h1 class="m-b-20 text-center text-light">{$lang.hd_tt_17}</h1>
-                <p class="m-b-20 text-center text-light">{$lang.hd_tt_18}</p>
                 <div class="d-flex justify-content-center">
                     <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#263689;">{$lang.contact_us}</a>
                 </div>

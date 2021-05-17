@@ -3,7 +3,7 @@
 defined('_EXEC') or die;
 
 $this->dependencies->add(['other', '<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLCea8Q6BtcTHwY3YFCiB0EoHE5KnsMUE&callback=map"></script>']);
-$this->dependencies->add(['js', '{$path.js}Index/contact_us.js?v=1.0']);
+$this->dependencies->add(['js', '{$path.js}Index/contact_us.js?v=1.1']);
 
 ?>
 
@@ -14,8 +14,7 @@ $this->dependencies->add(['js', '{$path.js}Index/contact_us.js?v=1.0']);
         </figure>
         <div class="pos-absolute d-flex align-items-end p-20 p-md-40" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);">
             <div class="container">
-                <h1 class="m-b-20 text-center text-light">{$lang.ct_tt_1}</h1>
-                <p class="text-center text-light">{$lang.ct_tt_2}</p>
+                <h1 class="text-center text-light">{$lang.ct_tt_1}</h1>
             </div>
         </div>
     </section>

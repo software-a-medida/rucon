@@ -2,37 +2,37 @@
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://gruporucon.mx/</loc>
+        <loc>https://gruporucon.com/</loc>
         <changefreq>yearly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://gruporucon.mx/acerca-de-nosotros</loc>
+        <loc>https://gruporucon.com/acerca-de-nosotros</loc>
         <changefreq>yearly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://gruporucon.mx/servicios</loc>
+        <loc>https://gruporucon.com/servicios</loc>
         <changefreq>yearly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://gruporucon.mx/llave-en-mano</loc>
+        <loc>https://gruporucon.com/llave-en-mano</loc>
         <changefreq>yearly</changefreq>
         <priority>0.80</priority>
     </url>
     <url>
-        <loc>https://gruporucon.mx/proyectos</loc>
+        <loc>https://gruporucon.com/proyectos</loc>
         <changefreq>yearly</changefreq>
         <priority>1.00</priority>
     </url>
     <url>
-        <loc>https://gruporucon.mx/contactanos</loc>
+        <loc>https://gruporucon.com/contactanos</loc>
         <changefreq>yearly</changefreq>
         <priority>0.60</priority>
     </url>
     <url>
-        <loc>https://gruporucon.mx/aviso-de-privacidad</loc>
+        <loc>https://gruporucon.com/aviso-de-privacidad</loc>
         <changefreq>yearly</changefreq>
         <priority>1.00</priority>
     </url>

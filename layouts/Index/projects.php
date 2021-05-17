@@ -13,8 +13,7 @@ $this->dependencies->add(['js', '{$path.js}Index/projects.js?v=1.0']);
     <?php if ($global['render'] == 'list') : ?>
         <section class="d-flex align-items-end p-20 p-md-40" style="height:50vh;background-color:#fff;">
             <div class="container m-b-0 m-b-md-40">
-                <h1 class="m-b-20 text-center text-dark">{$lang.pj_tt_1}</h1>
-                <p class="text-center text-dark">{$lang.pj_tt_2}</p>
+                <h1 class="text-center text-dark">{$lang.pj_tt_1}</h1>
             </div>
         </section>
         <section>

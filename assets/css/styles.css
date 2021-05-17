@@ -209,3 +209,18 @@ body * {
         left: -86px;
     }
 }
+
+#mision:hover > figure > img,
+#vision:hover > figure > img {
+    transform: scale(1.1) !important;
+}
+
+#mision:hover > div,
+#vision:hover > div {
+    background-color: rgb(38, 54, 137, 0.8) !important;
+}
+
+#service:hover > div {
+    background-color: #263689 !important;
+    color: #fff !important;
+}

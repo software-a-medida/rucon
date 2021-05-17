@@ -41,9 +41,9 @@ function map()
     var locations = [
         {
             title: 'Grupo Rucon',
-            lat: 21.1214886,
-            lng: -86.9192734,
-            zoom: 12
+            lat: 21.0098411,
+            lng: -89.6245011,
+            zoom: 14
         }
     ];
 

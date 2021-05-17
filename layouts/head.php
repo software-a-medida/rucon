@@ -13,7 +13,7 @@
 		<meta name="description" content="" />
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="https://cdn.codemonkey.com.mx/css/valkyrie.css" type="text/css" media="all" />
-		<link rel="stylesheet" href="{$path.css}styles.css?v=1.0" type="text/css" media="all" />
+		<link rel="stylesheet" href="{$path.css}styles.css?v=1.1" type="text/css" media="all" />
 		{$dependencies.css}
 	</head>
 	<body>
@@ -22,13 +22,12 @@
 				<div class="row d-flex align-items-center">
 					<div class="col-4 col-md-2">
 						<figure>
-							<img src="{$path.images}logotype.svg" alt="Logotype" class="img-fluid">
+							<a href="/"><img src="{$path.images}logotype.svg" alt="Logotype" class="img-fluid"></a>
 						</figure>
 					</div>
 					<div data-desktop class="col-10">
 						<nav>
 							<ul class="d-flex align-items-center justify-content-end list-unstyled">
-								<li><a href="/" class="text-uppercase text-dark">{$lang.home}</a></li>
 								<li class="m-l-15"><a href="/acerca-de-nosotros" class="text-uppercase text-dark">{$lang.about_us}</a></li>
 								<li class="m-l-15"><a href="/servicios" class="text-uppercase text-dark">{$lang.services}</a></li>
 								<li class="m-l-15"><a href="/llave-en-mano" class="text-uppercase text-dark">{$lang.key_on_hand}</a></li>
@@ -49,7 +48,6 @@
 			<a data-action="close_mobile_menu" class="btn btn-light pos-absolute" style="top:20px;right:20px;"><i class="fas fa-times"></i></a>
 			<nav>
 				<ul class="d-flex align-items-center flex-column list-unstyled">
-					<li class="m-b-10"><a href="/" class="text-uppercase text-dark">{$lang.home}</a></li>
 					<li class="m-b-10"><a href="/acerca-de-nosotros" class="text-uppercase text-dark">{$lang.about_us}</a></li>
 					<li class="m-b-10"><a href="/servicios" class="text-uppercase text-dark">{$lang.services}</a></li>
 					<li class="m-b-10"><a href="/llave-en-mano" class="text-uppercase text-dark">{$lang.key_on_hand}</a></li>

@@ -11,4 +11,4 @@ Disallow: /uploads/
 Disallow: /configuration.php
 Disallow: /favicon.ico
 Disallow: /index.php
-Sitemap: https://gruporucon.mx/sitemap.xml
+Sitemap: https://gruporucon.com/sitemap.xml

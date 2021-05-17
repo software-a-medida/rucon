@@ -87,9 +87,14 @@ a, button { text-decoration: none !important; cursor: pointer !important; }
 
 /*  */
 
-/* @font-face {
+@font-face {
     font-family: 'Montserrat-Regular';
     src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url("../fonts/Montserrat-ExtraBold.ttf");
 }
 
 body * {
@@ -102,7 +107,11 @@ body * {
 
 .fab {
     font-family: 'Font Awesome 5 Brands' !important;
-} */
+}
+
+.montserrat_extra_bold {
+    font-family: 'Montserrat-ExtraBold' !important;
+}
 
 /*  */
 

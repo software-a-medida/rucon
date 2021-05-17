@@ -81,9 +81,73 @@
         <div class="container">
             <h2 class="m-b-20 text-center">{$lang.sv_tt_18}</h2>
             <p class="m-b-20 text-center">{$lang.sv_tt_19}</p>
-            <figure>
-                <img src="{$path.images}sv_2.png" alt="Metodologic" class="img-fluid">
-            </figure>
+            <div class="row no-gutters d-flex align-items-center">
+                <div class="col-md-4 m-b-20 m-b-md-0">
+                    <div class="row no-gutters m-b-20">
+                        <div class="col-4 order-1 order-md-2">
+                            <span class="m-circle">1</span>
+                        </div>
+                        <div class="col-8 order-2 order-md-1 p-l-10 p-l-md-0 p-r-0 p-r-md-10">
+                            <h4 class="m-b-5 text-left text-md-right"><strong>{$lang.step} 1</strong></h4>
+                            <p class="text-left text-md-right">{$lang.sv_tt_20}</p>
+                        </div>
+                    </div>
+                    <div class="row no-gutters m-b-20">
+                        <div class="col-4 order-1 order-md-2">
+                            <span class="m-circle">2</span>
+                        </div>
+                        <div class="col-8 order-2 order-md-1 p-l-10 p-l-md-0 p-r-0 p-r-md-10">
+                            <h4 class="m-b-5 text-left text-md-right"><strong>{$lang.step} 2</strong></h4>
+                            <p class="text-left text-md-right">{$lang.sv_tt_21}</p>
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-4 order-1 order-md-2">
+                            <span class="m-circle">3</span>
+                        </div>
+                        <div class="col-8 order-2 order-md-1 p-l-10 p-l-md-0 p-r-0 p-r-md-10">
+                            <h4 class="m-b-5 text-left text-md-right"><strong>{$lang.step} 3</strong></h4>
+                            <p class="text-left text-md-right">{$lang.sv_tt_22}</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-desktop class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <span class="d-flex align-items-center justify-content-center" style="width:300px;height:300px;border-radius:50%;border:5px solid #e0e0e0;">
+                            <span style="width:200px;height:200px;border-radius:50%;background-color:#263689;"></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row no-gutters m-b-20">
+                        <div class="col-4">
+                            <span class="m-circle">4</span>
+                        </div>
+                        <div class="col-8 p-l-10">
+                            <h4 class="m-b-5"><strong>{$lang.step} 4</strong></h4>
+                            <p>{$lang.sv_tt_23}</p>
+                        </div>
+                    </div>
+                    <div class="row no-gutters m-b-20">
+                        <div class="col-4">
+                            <span class="m-circle">5</span>
+                        </div>
+                        <div class="col-8 p-l-10">
+                            <h4 class="m-b-5"><strong>{$lang.step} 5</strong></h4>
+                            <p>{$lang.sv_tt_24}</p>
+                        </div>
+                    </div>
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <span class="m-circle">6</span>
+                        </div>
+                        <div class="col-8 p-l-10">
+                            <h4 class="m-b-5"><strong>{$lang.step} 6</strong></h4>
+                            <p>{$lang.sv_tt_25}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </main>

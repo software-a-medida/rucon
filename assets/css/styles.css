@@ -109,10 +109,6 @@ body * {
     font-family: 'Font Awesome 5 Brands' !important;
 }
 
-.montserrat_extra_bold {
-    font-family: 'Montserrat-ExtraBold' !important;
-}
-
 /*  */
 
 #desktop_menu.down {
@@ -139,6 +135,20 @@ body * {
         position: relative !important;
         top: auto !important;
     }
+}
+
+/*  */
+
+.m-circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #19213c;
+    font-size: 60px;
+    color: #fff;
 }
 
 /*  */

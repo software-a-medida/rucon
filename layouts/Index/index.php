@@ -37,7 +37,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
         <div class="row no-gutters d-flex align-items-center">
             <div class="col-md-6 order-1 order-md-2">
                 <figure style="height:400px;overflow:hidden;">
-                    <img src="{$path.images}hm_2.png" alt="Cover" class="img-cover">
+                    <img src="{$path.images}hm_3.png" alt="Cover" class="img-cover">
                 </figure>
             </div>
             <div class="col-md-6 order-2 order-md-1 p-20 p-md-40 text-center text-md-left">
@@ -49,7 +49,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
         <div class="row no-gutters d-flex align-items-center">
             <div class="col-md-6">
                 <figure style="height:400px;overflow:hidden;">
-                    <img src="{$path.images}hm_2.png" alt="Cover" class="img-cover">
+                    <img src="{$path.images}hm_4.png" alt="Cover" class="img-cover">
                 </figure>
             </div>
             <div class="col-md-6 p-20 p-md-40 text-center text-md-left">

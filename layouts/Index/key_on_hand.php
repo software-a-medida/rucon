@@ -28,7 +28,7 @@
                 <div class="col-6 col-md-3 pos-relative circle" style="border-right:2px solid #9e9e9e;"></div>
                 <div class="col-6 col-md-3 pos-relative stick right">
                     <div class="p-20 d-flex align-items-end justify-content-center flex-column">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-map-marker-alt m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20 text-right">{$lang.hd_tt_3}</h4>
                         <p class="text-right">{$lang.hd_tt_4}</p>
                     </div>
@@ -39,7 +39,7 @@
                 <div class="col-0 col-md-3"></div>
                 <div class="col-6 col-md-3 pos-relative circle" style="border-right:2px solid #9e9e9e;">
                     <div class="p-20 d-flex align-items-start justify-content-center flex-column">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-home m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20 text-left">{$lang.hd_tt_5}</h4>
                         <p class="text-left">{$lang.hd_tt_6}</p>
                     </div>
@@ -52,7 +52,7 @@
                 <div class="col-6 col-md-3 pos-relative circle" style="border-right:2px solid #9e9e9e;"></div>
                 <div class="col-6 col-md-3 stick right">
                     <div class="p-20 d-flex align-items-end justify-content-center flex-column">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-paint-roller m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20 text-right">{$lang.hd_tt_7}</h4>
                         <p class="text-right">{$lang.hd_tt_8}</p>
                     </div>
@@ -63,7 +63,7 @@
                 <div class="col-0 col-md-3"></div>
                 <div class="col-6 col-md-3 pos-relative circle" style="border-right:2px solid #9e9e9e;">
                     <div class="p-20 d-flex align-items-start justify-content-center flex-column">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-hard-hat m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20 text-left">{$lang.hd_tt_9}</h4>
                         <p class="text-left">{$lang.hd_tt_10}</p>
                     </div>
@@ -76,7 +76,7 @@
                 <div class="col-6 col-md-3 pos-relative circle" style="border-right:2px solid #9e9e9e;"></div>
                 <div class="col-6 col-md-3 stick right">
                     <div class="p-20 d-flex align-items-end justify-content-center flex-column">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-money-check-alt m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20 text-right">{$lang.hd_tt_11}</h4>
                         <p class="text-right">{$lang.hd_tt_12}</p>
                     </div>
@@ -87,7 +87,7 @@
                 <div class="col-0 col-md-3"></div>
                 <div class="col-6 col-md-3 pos-relative circle" style="border-right:2px solid #9e9e9e;">
                     <div class="p-20 d-flex align-items-start justify-content-center flex-column">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-check-square m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20 text-left">{$lang.hd_tt_13}</h4>
                         <p class="text-left">{$lang.hd_tt_14}</p>
                     </div>
@@ -100,7 +100,7 @@
                 <div class="col-6 col-md-3 pos-relative circle" style="border-right:2px solid #9e9e9e;"></div>
                 <div class="col-6 col-md-3 stick right">
                     <div class="p-20 d-flex align-items-end justify-content-center flex-column">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-chart-line m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20 text-right">{$lang.hd_tt_15}</h4>
                         <p class="text-right">{$lang.hd_tt_16}</p>
                     </div>

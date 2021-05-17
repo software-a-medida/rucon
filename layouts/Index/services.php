@@ -21,28 +21,28 @@
                     <div class="row">
                         <div id="service" class="col-md-3 m-b-20 m-b-md-0">
                             <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
-                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <i class="fas fa-hard-hat m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_3}</h4>
                                 <p class="text-center">{$lang.sv_tt_4}</p>
                             </div>
                         </div>
                         <div id="service" class="col-md-3 m-b-20 m-b-md-0">
                             <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
-                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <i class="fas fa-road m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_5}</h4>
                                 <p class="text-center">{$lang.sv_tt_6}</p>
                             </div>
                         </div>
                         <div id="service" class="col-md-3 m-b-20 m-b-md-0">
                             <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
-                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <i class="fas fa-paint-roller m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_7}</h4>
                                 <p class="text-center">{$lang.sv_tt_8}</p>
                             </div>
                         </div>
                         <div id="service" class="col-md-3">
                             <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="height:180px;background-color:#fff;transition:400ms;">
-                                <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                                <i class="fas fa-city m-b-20" style="font-size:40px;"></i>
                                 <h4 class="m-b-5">{$lang.sv_tt_9}</h4>
                                 <p class="text-center">{$lang.sv_tt_10}</p>
                             </div>

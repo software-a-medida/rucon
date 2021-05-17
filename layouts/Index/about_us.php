@@ -43,33 +43,23 @@
             <h2 class="m-b-20 text-center">{$lang.ab_tt_8}</h2>
             <div class="row d-flex justify-content-center">
                 <div class="col-6 col-md-2 d-flex align-items-center justify-content-center flex-column">
-                    <figure class="m-b-20" style="height:100px;">
-                        <img src="{$path.images}ab_8.png" alt="Icon" style="width:auto;height:100%;">
-                    </figure>
+                    <i class="fas fa-balance-scale m-b-20" style="font-size:80px;color:#757575;"></i>
                     <h4 class="text-center">{$lang.ab_tt_9}</h4>
                 </div>
                 <div class="col-6 col-md-2 d-flex align-items-center justify-content-center flex-column m-b-20 m-b-md-0">
-                    <figure class="m-b-20" style="height:100px;">
-                        <img src="{$path.images}ab_4.png" alt="Icon" style="width:auto;height:100%;">
-                    </figure>
+                    <i class="fas fa-medal m-b-20" style="font-size:80px;color:#757575;"></i>
                     <h4 class="text-center">{$lang.ab_tt_10}</h4>
                 </div>
                 <div class="col-6 col-md-2 d-flex align-items-center justify-content-center flex-column m-b-20 m-b-md-0">
-                    <figure class="m-b-20" style="height:100px;">
-                        <img src="{$path.images}ab_5.png" alt="Icon" style="width:auto;height:100%;">
-                    </figure>
+                    <i class="fas fa-university m-b-20" style="font-size:80px;color:#757575;"></i>
                     <h4 class="text-center">{$lang.ab_tt_11}</h4>
                 </div>
                 <div class="col-6 col-md-2 d-flex align-items-center justify-content-center flex-column m-b-20 m-b-md-0">
-                    <figure class="m-b-20" style="height:100px;">
-                        <img src="{$path.images}ab_6.png" alt="Icon" style="width:auto;height:100%;">
-                    </figure>
+                    <i class="fas fa-clock m-b-20" style="font-size:80px;color:#757575;"></i>
                     <h4 class="text-center">{$lang.ab_tt_12}</h4>
                 </div>
                 <div class="col-6 col-md-2 d-flex align-items-center justify-content-center flex-column m-b-20 m-b-md-0">
-                    <figure class="m-b-20" style="height:100px;">
-                        <img src="{$path.images}ab_7.png" alt="Icon" style="width:auto;height:100%;">
-                    </figure>
+                    <i class="fas fa-hands-helping m-b-20" style="font-size:80px;color:#757575;"></i>
                     <h4 class="text-center">{$lang.ab_tt_13}</h4>
                 </div>
             </div>

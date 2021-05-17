@@ -65,21 +65,21 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             <div class="row">
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-road m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20">{$lang.hm_tt_11}</h4>
                         <p class="text-center">{$lang.hm_tt_12}</p>
                     </div>
                 </div>
                 <div class="col-md-4 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-paint-roller m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20">{$lang.hm_tt_13}</h4>
                         <p class="text-center">{$lang.hm_tt_14}</p>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow">
-                        <i class="fas fa-hands-helping m-b-20" style="font-size:40px;"></i>
+                        <i class="fas fa-map-marker-alt m-b-20" style="font-size:40px;"></i>
                         <h4 class="m-b-20">{$lang.hm_tt_15}</h4>
                         <p class="text-center">{$lang.hm_tt_16}</p>
                     </div>

@@ -19,11 +19,11 @@ $this->dependencies->add(['js', '{$path.js}Index/projects.js?v=1.0']);
         <section>
             <div class="row no-gutters">
                 <?php foreach ($global['projects'] as $value) : ?>
-                    <div class="col-md-3 pos-relative">
-                        <figure style="height:300px;">
+                    <div class="col-md-4 pos-relative">
+                        <figure style="height:350px;">
                             <img src="{$path.uploads}<?php echo $value['cover']; ?>" alt="Cover" class="img-cover">
                         </figure>
-                        <a href="/proyectos/<?php echo $value['token']; ?>" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:34px;"><?php echo $value['name']; ?></a>
+                        <a href="/proyectos/<?php echo $value['token']; ?>" class="pos-absolute d-flex align-items-center justify-content-center text-center text-light p-20" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:28px;"><?php echo $value['name']; ?></a>
                     </div>
                 <?php endforeach; ?>
             </div>
@@ -55,11 +55,21 @@ $this->dependencies->add(['js', '{$path.js}Index/projects.js?v=1.0']);
                         </figure>
                     </div>
                     <div class="col-md-4">
-                        <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_3}</strong> <?php echo $global['project']['architecture']; ?></a>
-                        <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_4}</strong> <?php echo $global['project']['location']; ?></a>
-                        <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_5}</strong> <?php echo $global['project']['specs']; ?></a>
-                        <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_6}</strong> <?php echo $global['project']['start']; ?></a>
-                        <a href="https://<?php echo $global['project']['website']; ?>" target="_blank" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column"><strong>{$lang.pj_tt_7}</strong> <?php echo $global['project']['website']; ?></a>
+                        <?php if (!empty($global['project']['architecture'])) : ?>
+                            <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_3}</strong> <?php echo $global['project']['architecture']; ?></a>
+                        <?php endif; ?>
+                        <?php if (!empty($global['project']['location'])) : ?>
+                            <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_4}</strong> <?php echo $global['project']['location']; ?></a>
+                        <?php endif; ?>
+                        <?php if (!empty($global['project']['specs'])) : ?>
+                            <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_5}</strong> <?php echo $global['project']['specs']; ?></a>
+                        <?php endif; ?>
+                        <?php if (!empty($global['project']['start'])) : ?>
+                            <a href="" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column m-b-20"><strong>{$lang.pj_tt_6}</strong> <?php echo $global['project']['start']; ?></a>
+                        <?php endif; ?>
+                        <?php if (!empty($global['project']['website'])) : ?>
+                            <a href="https://<?php echo $global['project']['website']; ?>" target="_blank" class="btn btn-light bx-shadow d-flex align-items-start justify-content-center flex-column"><strong>{$lang.pj_tt_7}</strong> <?php echo $global['project']['website']; ?></a>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>

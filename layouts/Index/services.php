@@ -77,7 +77,7 @@
             </div>
         </div>
     </section>
-    <section class="p-20 p-md-40" style="background-color:#f2f2f2;">
+    <!-- <section class="p-20 p-md-40" style="background-color:#f2f2f2;">
         <div class="container">
             <h2 class="m-b-20 text-center">{$lang.sv_tt_18}</h2>
             <p class="m-b-20 text-center">{$lang.sv_tt_19}</p>
@@ -149,5 +149,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </main>

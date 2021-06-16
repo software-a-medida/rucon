@@ -1,7 +1,12 @@
 <?php defined('_EXEC') or die; ?>
 
 <main>
-    <section class="pos-relative" style="height:50vh;">
+    <section class="d-flex align-items-end p-20 p-md-40" style="height:50vh;background-color:#fff;">
+        <div class="container m-b-0 m-b-md-40">
+            <h1 class="text-center text-dark">{$lang.ab_tt_1}</h1>
+        </div>
+    </section>
+    <!-- <section class="pos-relative" style="height:50vh;">
         <figure style="height:100%;">
             <img src="{$path.images}ab_1.png" alt="Background" class="img-cover">
         </figure>
@@ -10,12 +15,12 @@
                 <h1 class="text-center text-light">{$lang.ab_tt_1}</h1>
             </div>
         </div>
-    </section>
-    <section class="p-20 p-md-40">
+    </section> -->
+    <!-- <section class="p-20 p-md-40">
         <div class="container">
             <p class="p-l-0 p-l-md-40 p-r-0 p-r-md-40 text-center">{$lang.ab_tt_3}</p>
         </div>
-    </section>
+    </section> -->
     <section>
         <div class="row d-flex align-items-center no-gutters">
             <div id="mision" class="col-md-6 pos-relative">

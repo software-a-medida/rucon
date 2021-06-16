@@ -99,7 +99,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                     <figure style="height:400px;">
                         <img src="{$path.uploads}<?php echo $value['cover']; ?>" alt="Cover" class="img-cover">
                     </figure>
-                    <a href="/proyectos/<?php echo $value['token']; ?>" class="pos-absolute d-flex align-items-center justify-content-center text-light" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:34px;"><?php echo $value['name']; ?></a>
+                    <a href="/proyectos/<?php echo $value['token']; ?>" class="pos-absolute d-flex align-items-center justify-content-center text-center text-light p-20" style="top:0px;right:0px;bottom:0px;left:0px;background-color:rgba(0,0,0,0.4);font-size:28px;"><?php echo $value['name']; ?></a>
                 </div>
             <?php endforeach; ?>
         </div>

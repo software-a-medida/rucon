@@ -9,7 +9,7 @@
             <div class="container">
                 <h1 class="m-b-20 text-center text-light">{$lang.sv_tt_1}</h1>
                 <div class="d-flex justify-content-center m-b-20 m-b-md-0">
-                    <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#263689;">{$lang.contact_us}</a>
+                    <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#19213c;">{$lang.contact_us}</a>
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
                 <div data-desktop class="col-md-4">
                     <div class="d-flex align-items-center justify-content-center">
                         <span class="d-flex align-items-center justify-content-center" style="width:300px;height:300px;border-radius:50%;border:5px solid #e0e0e0;">
-                            <span style="width:200px;height:200px;border-radius:50%;background-color:#263689;"></span>
+                            <span style="width:200px;height:200px;border-radius:50%;background-color:#19213c;"></span>
                         </span>
                     </div>
                 </div>

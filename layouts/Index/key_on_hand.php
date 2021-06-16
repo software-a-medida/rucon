@@ -117,7 +117,7 @@
             <div class="container">
                 <h1 class="m-b-20 text-center text-light">{$lang.hd_tt_17}</h1>
                 <div class="d-flex justify-content-center">
-                    <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#263689;">{$lang.contact_us}</a>
+                    <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#19213c;">{$lang.contact_us}</a>
                 </div>
             </div>
         </div>

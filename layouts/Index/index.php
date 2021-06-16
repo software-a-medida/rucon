@@ -16,12 +16,12 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                 <h1 class="m-b-20 text-center text-light">{$lang.hm_tt_1_1} <strong id="typing"></strong><span id="cursor">|</span> {$lang.hm_tt_1_2}</h1>
                 <p class="m-b-20 text-center text-light">{$lang.hm_tt_2}</p>
                 <div class="d-flex justify-content-center m-b-20 m-b-md-40">
-                    <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#263689;">{$lang.contact_us}</a>
+                    <a href="/contactanos" class="btn" style="width:100%;max-width:200px;border:0px;border-radius:40px;background-color:#19213c;">{$lang.contact_us}</a>
                 </div>
             </div>
         </div>
     </section>
-    <section style="background-color:#263689;">
+    <section style="background-color:#19213c;">
         <div class="row no-gutters d-flex align-items-center">
             <div class="col-md-6">
                 <figure style="height:400px;overflow:hidden;">
@@ -104,7 +104,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
             <?php endforeach; ?>
         </div>
         <div class="p-20 text-center text-md-right">
-            <a href="/proyectos" class="btn btn-b-none text-light" style="border-radius:40px;background-color:#263689;">{$lang.view_more_projects}</a>
+            <a href="/proyectos" class="btn btn-b-none text-light" style="border-radius:40px;background-color:#19213c;">{$lang.view_more_projects}</a>
         </div>
     </section>
     <section class="p-20 p-md-40" style="background-color:#f2f2f2;">
@@ -113,7 +113,7 @@ $this->dependencies->add(['js', '{$path.js}Index/index.js?v=1.0']);
                 <div class="col-md-4 m-b-20 m-b-md-0 text-center text-md-left">
                     <h2 class="m-b-20">{$lang.hm_tt_19}</h2>
                     <p class="m-b-20">{$lang.hm_tt_20}</p>
-                    <a href="/contactanos" class="btn btn-b-none text-light" style="border-radius:40px;background-color:#263689;">{$lang.start_now}</a>
+                    <a href="/contactanos" class="btn btn-b-none text-light" style="border-radius:40px;background-color:#19213c;">{$lang.start_now}</a>
                 </div>
                 <div class="col-md-8 m-b-20 m-b-md-0">
                     <div class="p-20 d-flex align-items-center justify-content-center flex-column bx-shadow" style="background-color:#fff;">

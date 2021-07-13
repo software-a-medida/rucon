@@ -29,7 +29,12 @@
 								<li class="m-b-5"><a href="/llave-en-mano" class="text-light">{$lang.key_on_hand}</a></li>
 								<li class="m-b-5"><a href="/proyectos" class="text-light">{$lang.projects}</a></li>
 								<li class="m-b-5"><a href="/contactanos" class="text-light">{$lang.contact_us}</a></li>
-                                <li><a href="/aviso-de-privacidad" class="text-light">{$lang.privacy_notice}</a></li>
+                                <li class="m-b-5"><a href="/aviso-de-privacidad" class="text-light">{$lang.privacy_notice}</a></li>
+                                <?php if (Session::exists_var('session') AND Session::get_value('session') == true) : ?>
+                                    <li><a href="/cerrar-sesion" class="text-light">{$lang.logout}</a></li>
+                                <?php else : ?>
+                                    <li><a href="/iniciar-sesion" class="text-light">{$lang.login}</a></li>
+                                <?php endif; ?>
                             </ul>
                         </nav>
                     </div>

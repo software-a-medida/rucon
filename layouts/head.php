@@ -35,6 +35,9 @@
 								<li class="m-l-15"><a href="/contactanos" class="text-uppercase text-dark">{$lang.contact_us}</a></li>
 								<li class="m-l-15"><a href="?lang=es"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:15px;"></a></li>
 								<li class="m-l-15"><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:15px;"></a></li>
+								<?php if (Session::exists_var('session') AND Session::get_value('session') == true) : ?>
+									<li class="m-l-15"><a href="/cerrar-sesion" class="text-uppercase text-dark">{$lang.logout}</a></li>
+				                <?php endif; ?>
 							</ul>
 						</nav>
 					</div>
@@ -54,6 +57,9 @@
 					<li class="m-b-10"><a href="/proyectos" class="text-uppercase text-dark">{$lang.projects}</a></li>
 					<li class="m-b-10"><a href="/contactanos" class="text-uppercase text-dark">{$lang.contact_us}</a></li>
 					<li><a href="?lang=es" class="m-r-10"><img src="{$path.images}es.jpg" alt="ES Lang" style="height:20px;"></a><a href="?lang=en"><img src="{$path.images}en.jpg" alt="EN Lang" style="height:20px;"></a></li>
+					<?php if (Session::exists_var('session') AND Session::get_value('session') == true) : ?>
+						<li class="m-t-10"><a href="/cerrar-sesion" class="text-uppercase text-dark">{$lang.logout}</a></li>
+					<?php endif; ?>
 				</ul>
 			</nav>
 		</header>
